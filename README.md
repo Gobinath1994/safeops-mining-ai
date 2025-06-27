@@ -1,5 +1,5 @@
 
-# SafeOps-Mining-AI – Intelligent Safety Violation Monitoring System
+# SafeOps_Mining_AI – Intelligent Safety Violation Monitoring System
 
 ## 🔍 Overview
 SafeOps AI is a modular AI-powered safety monitoring system built for mining and construction sites. It combines real-time computer vision (YOLOv8), rule-based notifications, and LLM-based reasoning to detect, analyze, and respond to safety violations such as missing helmets, proximity to heavy machinery, or trip hazards.
