@@ -1,40 +1,20 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*.so
+# Ignore Python environment
+safeops_ai_env/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Environment files
-env/
-venv/
-.safeops_ai_env/
-.safeops_ai_env*/
-*.env
-
-# Streamlit logs
-.streamlit/
-
-# Logs and outputs
-*.log
-*.txt
-logs.txt
-llm_logs.txt
-action_plan.txt
-policy_recommendations.txt
-
-# Data & annotations
-data/annotated_frames/
-data/dummy_detections.json
-
-# System files
-.DS_Store
-Thumbs.db
-
-# VS Code / IDE folders
-.vscode/
-.idea/
-
-# Model weights
+# Ignore model weights
 *.pt
+*.pth
+
+# Ignore LLM logs and outputs
+*.txt
+
+# Ignore large datasets and annotations
+annotated_frames/
+dummy_frames/
+*.dylib
+*.so
+*.zip
+
+# Ignore other system files
+__pycache__/
+.DS_Store
